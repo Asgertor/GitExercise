@@ -6,10 +6,8 @@ public class SuperGreeter {
     }
     public void greet(){
         Scanner sc = new Scanner(System.in);
-
-        String fh = sc.next();
-
-        System.out.println(fh);
+        String navn = sc.next();
+        System.out.printf("%s Hej",navn);
     }
 
 }
