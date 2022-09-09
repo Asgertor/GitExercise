@@ -6,8 +6,16 @@ public class SuperGreeter {
     }
     public void greet(){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Hvad hedder du?");
         String navn = sc.next();
-        System.out.printf("%s Hej",navn);
+        System.out.printf("Hej %s %n",navn);
+    }
+    public void askAboutAge(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Hvor gammel er du?");
+        int age = sc.nextInt();
+        System.out.printf("Du er %d gammel",age);
+
     }
 
 }
